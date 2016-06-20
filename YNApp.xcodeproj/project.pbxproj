@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B45A677B1D18A18A005B87BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45A677A1D18A18A005B87BE /* AppDelegate.swift */; };
+		B45A677D1D18A18A005B87BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45A677C1D18A18A005B87BE /* ViewController.swift */; };
+		B45A67801D18A18A005B87BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45A677E1D18A18A005B87BE /* Main.storyboard */; };
+		B45A67831D18A18A005B87BE /* YNApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B45A67811D18A18A005B87BE /* YNApp.xcdatamodeld */; };
+		B45A67851D18A18A005B87BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45A67841D18A18A005B87BE /* Assets.xcassets */; };
+		B45A67881D18A18A005B87BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45A67861D18A18A005B87BE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B45A67771D18A18A005B87BE /* YNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45A677A1D18A18A005B87BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B45A677C1D18A18A005B87BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B45A677F1D18A18A005B87BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B45A67821D18A18A005B87BE /* YNApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YNApp.xcdatamodel; sourceTree = "<group>"; };
+		B45A67841D18A18A005B87BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B45A67871D18A18A005B87BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B45A67891D18A18A005B87BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B45A67741D18A18A005B87BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B45A676E1D18A18A005B87BE = {
+			isa = PBXGroup;
+			children = (
+				B45A67791D18A18A005B87BE /* YNApp */,
+				B45A67781D18A18A005B87BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B45A67781D18A18A005B87BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B45A67771D18A18A005B87BE /* YNApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B45A67791D18A18A005B87BE /* YNApp */ = {
+			isa = PBXGroup;
+			children = (
+				B45A677A1D18A18A005B87BE /* AppDelegate.swift */,
+				B45A677C1D18A18A005B87BE /* ViewController.swift */,
+				B45A677E1D18A18A005B87BE /* Main.storyboard */,
+				B45A67841D18A18A005B87BE /* Assets.xcassets */,
+				B45A67861D18A18A005B87BE /* LaunchScreen.storyboard */,
+				B45A67891D18A18A005B87BE /* Info.plist */,
+				B45A67811D18A18A005B87BE /* YNApp.xcdatamodeld */,
+			);
+			path = YNApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B45A67761D18A18A005B87BE /* YNApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45A678C1D18A18A005B87BE /* Build configuration list for PBXNativeTarget "YNApp" */;
+			buildPhases = (
+				B45A67731D18A18A005B87BE /* Sources */,
+				B45A67741D18A18A005B87BE /* Frameworks */,
+				B45A67751D18A18A005B87BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YNApp;
+			productName = YNApp;
+			productReference = B45A67771D18A18A005B87BE /* YNApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B45A676F1D18A18A005B87BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Luca Genco";
+				TargetAttributes = {
+					B45A67761D18A18A005B87BE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B45A67721D18A18A005B87BE /* Build configuration list for PBXProject "YNApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B45A676E1D18A18A005B87BE;
+			productRefGroup = B45A67781D18A18A005B87BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B45A67761D18A18A005B87BE /* YNApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B45A67751D18A18A005B87BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45A67881D18A18A005B87BE /* LaunchScreen.storyboard in Resources */,
+				B45A67851D18A18A005B87BE /* Assets.xcassets in Resources */,
+				B45A67801D18A18A005B87BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B45A67731D18A18A005B87BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45A677D1D18A18A005B87BE /* ViewController.swift in Sources */,
+				B45A67831D18A18A005B87BE /* YNApp.xcdatamodeld in Sources */,
+				B45A677B1D18A18A005B87BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B45A677E1D18A18A005B87BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45A677F1D18A18A005B87BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B45A67861D18A18A005B87BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45A67871D18A18A005B87BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B45A678A1D18A18A005B87BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B45A678B1D18A18A005B87BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B45A678D1D18A18A005B87BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.YNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B45A678E1D18A18A005B87BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.YNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B45A67721D18A18A005B87BE /* Build configuration list for PBXProject "YNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45A678A1D18A18A005B87BE /* Debug */,
+				B45A678B1D18A18A005B87BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B45A678C1D18A18A005B87BE /* Build configuration list for PBXNativeTarget "YNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45A678D1D18A18A005B87BE /* Debug */,
+				B45A678E1D18A18A005B87BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B45A67811D18A18A005B87BE /* YNApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B45A67821D18A18A005B87BE /* YNApp.xcdatamodel */,
+			);
+			currentVersion = B45A67821D18A18A005B87BE /* YNApp.xcdatamodel */;
+			path = YNApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B45A676F1D18A18A005B87BE /* Project object */;
+}
