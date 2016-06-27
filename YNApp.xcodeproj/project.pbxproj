@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56DEB75F7A527251EEADD176 /* Pods_YNApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F267B57AF2946DAC0B5443F /* Pods_YNApp.framework */; };
 		B45A677B1D18A18A005B87BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45A677A1D18A18A005B87BE /* AppDelegate.swift */; };
-		B45A677D1D18A18A005B87BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45A677C1D18A18A005B87BE /* ViewController.swift */; };
+		B45A677D1D18A18A005B87BE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45A677C1D18A18A005B87BE /* HomeVC.swift */; };
 		B45A67801D18A18A005B87BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45A677E1D18A18A005B87BE /* Main.storyboard */; };
 		B45A67831D18A18A005B87BE /* YNApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B45A67811D18A18A005B87BE /* YNApp.xcdatamodeld */; };
 		B45A67851D18A18A005B87BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45A67841D18A18A005B87BE /* Assets.xcassets */; };
 		B45A67881D18A18A005B87BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45A67861D18A18A005B87BE /* LaunchScreen.storyboard */; };
+		B45A67901D18A1F8005B87BE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B45A678F1D18A1F8005B87BE /* Podfile */; };
+		B48BF0351D19379800485F82 /* HomeVCcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48BF0341D19379800485F82 /* HomeVCcell.swift */; };
+		B48BF03D1D19611D00485F82 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48BF03C1D19611D00485F82 /* ListVC.swift */; };
+		B48BF03F1D19612B00485F82 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48BF03E1D19612B00485F82 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F267B57AF2946DAC0B5443F /* Pods_YNApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45A67771D18A18A005B87BE /* YNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45A677A1D18A18A005B87BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B45A677C1D18A18A005B87BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B45A677C1D18A18A005B87BE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		B45A677F1D18A18A005B87BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B45A67821D18A18A005B87BE /* YNApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YNApp.xcdatamodel; sourceTree = "<group>"; };
 		B45A67841D18A18A005B87BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45A67871D18A18A005B87BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B45A67891D18A18A005B87BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45A678F1D18A1F8005B87BE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B48BF0341D19379800485F82 /* HomeVCcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVCcell.swift; sourceTree = "<group>"; };
+		B48BF03C1D19611D00485F82 /* ListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		B48BF03E1D19612B00485F82 /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		CA7923D350AC94E8C16F5039 /* Pods-YNApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YNApp/Pods-YNApp.release.xcconfig"; sourceTree = "<group>"; };
+		DB012CA2CEA08F6977924619 /* Pods-YNApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YNApp/Pods-YNApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DEB75F7A527251EEADD176 /* Pods_YNApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43E656143AFD7326458BD493 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB012CA2CEA08F6977924619 /* Pods-YNApp.debug.xcconfig */,
+				CA7923D350AC94E8C16F5039 /* Pods-YNApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E8DF8791FBB9A5B32C82F57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F267B57AF2946DAC0B5443F /* Pods_YNApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B45A676E1D18A18A005B87BE = {
 			isa = PBXGroup;
 			children = (
 				B45A67791D18A18A005B87BE /* YNApp */,
 				B45A67781D18A18A005B87BE /* Products */,
+				43E656143AFD7326458BD493 /* Pods */,
+				6E8DF8791FBB9A5B32C82F57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +89,16 @@
 			isa = PBXGroup;
 			children = (
 				B45A677A1D18A18A005B87BE /* AppDelegate.swift */,
-				B45A677C1D18A18A005B87BE /* ViewController.swift */,
+				B45A677C1D18A18A005B87BE /* HomeVC.swift */,
+				B48BF03C1D19611D00485F82 /* ListVC.swift */,
+				B48BF03E1D19612B00485F82 /* DetailsVC.swift */,
+				B48BF0341D19379800485F82 /* HomeVCcell.swift */,
 				B45A677E1D18A18A005B87BE /* Main.storyboard */,
 				B45A67841D18A18A005B87BE /* Assets.xcassets */,
 				B45A67861D18A18A005B87BE /* LaunchScreen.storyboard */,
 				B45A67891D18A18A005B87BE /* Info.plist */,
 				B45A67811D18A18A005B87BE /* YNApp.xcdatamodeld */,
+				B45A678F1D18A1F8005B87BE /* Podfile */,
 			);
 			path = YNApp;
 			sourceTree = "<group>";
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B45A678C1D18A18A005B87BE /* Build configuration list for PBXNativeTarget "YNApp" */;
 			buildPhases = (
+				BBFDA041F52A974194E1E84D /* Check Pods Manifest.lock */,
 				B45A67731D18A18A005B87BE /* Sources */,
 				B45A67741D18A18A005B87BE /* Frameworks */,
 				B45A67751D18A18A005B87BE /* Resources */,
+				BCF199289C9A48C8EBA70F87 /* Embed Pods Frameworks */,
+				E6EFFDD3D08320E1E18C208E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45A67901D18A1F8005B87BE /* Podfile in Resources */,
 				B45A67881D18A18A005B87BE /* LaunchScreen.storyboard in Resources */,
 				B45A67851D18A18A005B87BE /* Assets.xcassets in Resources */,
 				B45A67801D18A18A005B87BE /* Main.storyboard in Resources */,
@@ -133,12 +173,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BBFDA041F52A974194E1E84D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF199289C9A48C8EBA70F87 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YNApp/Pods-YNApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6EFFDD3D08320E1E18C208E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YNApp/Pods-YNApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B45A67731D18A18A005B87BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B45A677D1D18A18A005B87BE /* ViewController.swift in Sources */,
+				B45A677D1D18A18A005B87BE /* HomeVC.swift in Sources */,
+				B48BF03F1D19612B00485F82 /* DetailsVC.swift in Sources */,
+				B48BF03D1D19611D00485F82 /* ListVC.swift in Sources */,
+				B48BF0351D19379800485F82 /* HomeVCcell.swift in Sources */,
 				B45A67831D18A18A005B87BE /* YNApp.xcdatamodeld in Sources */,
 				B45A677B1D18A18A005B87BE /* AppDelegate.swift in Sources */,
 			);
@@ -251,9 +342,11 @@
 		};
 		B45A678D1D18A18A005B87BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB012CA2CEA08F6977924619 /* Pods-YNApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YNApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.YNApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,9 +355,11 @@
 		};
 		B45A678E1D18A18A005B87BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7923D350AC94E8C16F5039 /* Pods-YNApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YNApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.YNApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,6 +385,7 @@
 				B45A678E1D18A18A005B87BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
